@@ -13,7 +13,7 @@ body {
  
   #sub-text {
     font-family: Lato;
-    font-weight:300;
+    font-weight:700;
     color: black;
     font-size: 1.5vw;
     text-align: center;
@@ -23,7 +23,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight:300;
     color: black;
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
     margin: -2vw;
   }
@@ -67,7 +67,7 @@ body {
  
   #sub-text {
     font-family: Lato;
-    font-weight:300;
+    font-weight:700;
     color: black;
     font-size: 5.5vw;
     text-align: center;
@@ -82,10 +82,10 @@ body {
   .timerfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 8vw;
+    font-size: 13.5vw;
     color: black;
     text-align: center;
-    margin: -2vw;
+    margin: 2vw;
   }
 
   .controlfont {
