@@ -6,7 +6,7 @@ body {
   #main-text {
     font-family: Lato;
     font-weight:700;
-    color: black;
+    color: #000;
     font-size: 5vw;
     text-align: center;
   }
@@ -14,7 +14,7 @@ body {
   #sub-text {
     font-family: Lato;
     font-weight:300;
-    color: black;
+    color: #000;
     font-size: 1.5vw;
     text-align: center;
   }
@@ -60,6 +60,7 @@ body {
   #main-text {
     font-family: Lato;
     font-weight:700;
+    color: #000;
     font-size: 11vw;
     text-align: center;
   }
@@ -67,6 +68,7 @@ body {
   #sub-text {
     font-family: Lato;
     font-weight:300;
+    color: #000;
     font-size: 5.5vw;
     text-align: center;
   }
