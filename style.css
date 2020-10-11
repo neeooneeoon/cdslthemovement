@@ -1,3 +1,5 @@
+@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.eot"); src: url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.woff") format("woff"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.svg#Helvetica Neue") format("svg"); }
+
 body { 
   background-color: #d4003a; 
 }
@@ -6,7 +8,7 @@ body {
   #main-text {
     font-family: Gilroy ExtraBold;
     color: black;
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
   }
  
@@ -16,11 +18,36 @@ body {
     font-size: 1.5vw;
     text-align: center;
   }
+
+  .timerfont {
+    font-family: Gilroy ExtraBold;
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+    margin: -2vw;
+  }
  
  img {
    display: block;
    max-width: 20%;
    height: auto;
+ }
+
+ .controlfont {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight:300;
+    font-size: 1.5vw;
+    text-align: center;
+
+ }
+
+ .datefont {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight:700;
+    font-size: 1.5vw;
+    text-align: center;
  }
  
  .spacer {
@@ -32,28 +59,52 @@ body {
   #main-text {
     font-family: Gilroy ExtraBold;
     color: black;
-    font-size: 7vw;
+    font-size: 11vw;
     text-align: center;
   }
  
   #sub-text {
-   font-family: Gilroy ExtraBold;
+    font-family: Gilroy ExtraBold;
     color: black;
     font-size: 5.5vw;
     text-align: center;
   }
  
- img {
-   display: block;
-   max-width: 20%;
-   height: auto;
+  img {
+    display: block;
+    max-width: 20%;
+    height: auto;
+  }
+
+  .timerfont {
+    font-family: Gilroy ExtraBold;
+    color: black;
+    font-size: 7vw;
+    text-align: center;
+    margin: -2vw;
+  }
+
+  .controlfont {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight:300;
+    font-size: 5.5vw;
+    text-align: center;
+
+ }
+
+ .datefont {
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    color: black;
+    font-size: 5.5vw;
+    text-align: center;
  }
  
  .spacer {
    margin: 100px;
  }
 }
-
 
 
 
