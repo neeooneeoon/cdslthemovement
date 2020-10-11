@@ -2,28 +2,58 @@ body {
   background-color: #d4003a; 
 }
 
- #main-text {
+@media screen and (min-width: 1080px) {
+  #main-text {
+    font-family: Gilroy ExtraBold;
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+  }
+ 
+  #sub-text {
    font-family: Gilroy ExtraBold;
-   color: black;
-   font-size: 6vw;
-   text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+ 
+ img {
+   display: block;
+   max-width: 20%;
+   height: auto;
  }
-
- #sub-text {
-  font-family: Gilroy ExtraBold;
-   color: black;
-   font-size: 3.5vw;
-   text-align: center;
+ 
+ .spacer {
+   margin: 100px;
  }
-
-img {
-  display: block;
-  max-width: 20%;
-  height: auto;
 }
 
-.spacer {
-  margin: 100px;
+@media screen and (max-width: 1080px) {
+  #main-text {
+    font-family: Gilroy ExtraBold;
+    color: black;
+    font-size: 7vw;
+    text-align: center;
+  }
+ 
+  #sub-text {
+   font-family: Gilroy ExtraBold;
+    color: black;
+    font-size: 5.5vw;
+    text-align: center;
+  }
+ 
+ img {
+   display: block;
+   max-width: 20%;
+   height: auto;
+ }
+ 
+ .spacer {
+   margin: 100px;
+ }
 }
+
+
 
 
