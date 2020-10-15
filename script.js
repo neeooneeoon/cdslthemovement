@@ -18,7 +18,6 @@ function makeTimer() {
       if (seconds < "10") { seconds = "0" + seconds; }
 
       $("#time").html(days+":"+hours+":"+minutes+":"+seconds);
-
 }
 
 setInterval(function() { makeTimer(); }, 1000);
