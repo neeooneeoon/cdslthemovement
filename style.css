@@ -31,10 +31,10 @@ body {
   .linkfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 13.5vw;
+    font-size: 2vw;
     color: black;
     text-align: center;
-    margin: 2vw;
+    margin: 0vw;
   }
  
  img {
@@ -100,7 +100,8 @@ body {
   .linkfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 13.5vw;
+    font-size: 5.5vw;
+    line-height: 8vw;
     color: black;
     text-align: center;
     margin: 2vw;
@@ -126,6 +127,10 @@ body {
  .spacer {
    margin: 100px;
  }
+}
+
+.hyperlinkblack {
+  color: black;
 }
 
 
