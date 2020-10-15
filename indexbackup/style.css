@@ -1,12 +1,12 @@
 body { 
-  background-color: #FFF; 
+  background-color: #d4003a; 
 }
 
 @media screen and (min-width: 1080px) {
   #main-text {
     font-family: Lato;
     font-weight:700;
-    color: #d4003a;
+    color: black;
     font-size: 5vw;
     text-align: center;
   }
@@ -14,7 +14,7 @@ body {
   #sub-text {
     font-family: Lato;
     font-weight:700;
-    color: #d4003a;
+    color: black;
     font-size: 1.5vw;
     text-align: center;
   }
@@ -22,7 +22,7 @@ body {
   .timerfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    color: #d4003a;
+    color: black;
     font-size: 6vw;
     text-align: center;
     margin: -2vw;
@@ -31,20 +31,21 @@ body {
   .linkfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 6vw;
+    font-size: 2vw;
+    color: black;
     text-align: center;
     margin: 0vw;
   }
  
- .logo {
+ img {
    display: block;
-   max-width: 12%;
+   max-width: 20%;
    height: auto;
  }
 
  .controlfont {
     font-family: 'Lato', sans-serif;
-    color: #d4003a;
+    color: black;
     font-weight:300;
     font-size: 1.5vw;
     text-align: center;
@@ -53,7 +54,7 @@ body {
 
  .datefont {
     font-family: 'Lato', sans-serif;
-    color: #d4003a;
+    color: black;
     font-weight:700;
     font-size: 1.5vw;
     text-align: center;
@@ -61,12 +62,6 @@ body {
  
  .spacer {
    margin: 100px;
- }
-
- .control {
-  display: block;
-  max-width: 30%;
-  height: auto;
  }
 }
 
@@ -74,7 +69,7 @@ body {
   #main-text {
     font-family: Lato;
     font-weight:700;
-    color: #d4003a;
+    color: black;
     font-size: 11vw;
     text-align: center;
   }
@@ -82,14 +77,14 @@ body {
   #sub-text {
     font-family: Lato;
     font-weight:700;
-    color: #d4003a;
+    color: black;
     font-size: 5.5vw;
     text-align: center;
   }
  
-  .logo {
+  img {
     display: block;
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
   }
 
@@ -97,7 +92,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight:300;
     font-size: 13.5vw;
-    color: #d4003a;
+    color: black;
     text-align: center;
     margin: 2vw;
   }
@@ -105,15 +100,16 @@ body {
   .linkfont {
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 15vw;
-    line-height: 20vw;
+    font-size: 5.5vw;
+    line-height: 8vw;
+    color: black;
     text-align: center;
     margin: 2vw;
   }
 
   .controlfont {
     font-family: 'Lato', sans-serif;
-    color: #d4003a;
+    color: black;
     font-weight:300;
     font-size: 5.5vw;
     text-align: center;
@@ -123,7 +119,7 @@ body {
  .datefont {
     font-family: 'Lato', sans-serif;
     font-weight:700;
-    color: #d4003a;
+    color: black;
     font-size: 5.5vw;
     text-align: center;
  }
@@ -131,17 +127,10 @@ body {
  .spacer {
    margin: 100px;
  }
-
- .control {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1.5vw;
- }
 }
 
 .hyperlinkblack {
-  color: #d4003a;
+  color: black;
 }
 
 
