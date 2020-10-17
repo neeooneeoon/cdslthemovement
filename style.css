@@ -1,148 +1,182 @@
-body { 
-  background-color: #FFF; 
+body {
+  background-color: #FFF;
 }
 
 @media screen and (min-width: 1080px) {
   #main-text {
     font-family: Lato;
-    font-weight:700;
+    font-weight: 700;
     color: #d4003a;
     font-size: 5vw;
     text-align: center;
   }
- 
   #sub-text {
     font-family: Lato;
-    font-weight:700;
+    font-weight: 700;
     color: #d4003a;
     font-size: 1.5vw;
     text-align: center;
   }
-
   .timerfont {
     font-family: 'Lato', sans-serif;
-    font-weight:300;
+    font-weight: 300;
     color: #d4003a;
     font-size: 6vw;
     text-align: center;
     margin: -2vw;
   }
-
   .linkfont {
     font-family: 'Lato', sans-serif;
-    font-weight:300;
+    font-weight: 300;
     font-size: 6vw;
     text-align: center;
     margin: 0vw;
   }
- 
- .logo {
-   display: block;
-   max-width: 12%;
-   height: auto;
- }
-
- .controlfont {
+  .logo {
+    display: block;
+    max-width: 12%;
+    height: auto;
+  }
+  .controlfont {
     font-family: 'Lato', sans-serif;
     color: #d4003a;
-    font-weight:300;
-    font-size: 1.5vw;
+    font-weight: 300;
+    font-size: 2vw;
     text-align: center;
-
- }
-
- .datefont {
+  }
+  .datefont {
     font-family: 'Lato', sans-serif;
     color: #d4003a;
-    font-weight:700;
+    font-weight: 700;
     font-size: 1.5vw;
     text-align: center;
- }
- 
- .spacer {
-   margin: 100px;
- }
-
- .control {
-  display: block;
-  max-width: 30%;
-  height: auto;
- }
+  }
+  .spacer {
+    margin: 100px;
+  }
+  .control {
+    display: block;
+    max-width: 30%;
+    height: auto;
+  }
+  .nct {
+    display: inline;
+    max-width: 10%;
+    height: auto;
+  }
+  .vertical-inline {
+    vertical-align: middle;
+  }
+  .spotify-color:hover {
+    color: #1DB954;
+  }
+  .apple-color:hover {
+    color: #555555;
+  }
+  .youtube-color:hover {
+    color: #FF0000;
+  }
+  .itunes-color:hover {
+    color; #A3AAAE;
+  }
+  .desktop-link {
+    display: block !important;
+  }
+  .mobile-link {
+    display: none !important;
+  }
+  .youtube-size {
+    font-size: 7vw;
+  }
 }
 
 @media screen and (max-width: 1080px) {
   #main-text {
     font-family: Lato;
-    font-weight:700;
+    font-weight: 700;
     color: #d4003a;
     font-size: 11vw;
     text-align: center;
   }
- 
   #sub-text {
     font-family: Lato;
-    font-weight:700;
+    font-weight: 700;
     color: #d4003a;
     font-size: 5.5vw;
     text-align: center;
   }
- 
   .logo {
     display: block;
     max-width: 30%;
     height: auto;
   }
-
   .timerfont {
     font-family: 'Lato', sans-serif;
-    font-weight:300;
+    font-weight: 300;
     font-size: 13.5vw;
     color: #d4003a;
     text-align: center;
     margin: 2vw;
   }
-
   .linkfont {
     font-family: 'Lato', sans-serif;
-    font-weight:300;
+    font-weight: 300;
     font-size: 15vw;
     line-height: 20vw;
     text-align: center;
     margin: 2vw;
   }
-
   .controlfont {
     font-family: 'Lato', sans-serif;
     color: #d4003a;
-    font-weight:300;
+    font-weight: 300;
     font-size: 5.5vw;
     text-align: center;
-
- }
-
- .datefont {
+  }
+  .datefont {
     font-family: 'Lato', sans-serif;
-    font-weight:700;
+    font-weight: 700;
     color: #d4003a;
     font-size: 5.5vw;
     text-align: center;
- }
- 
- .spacer {
-   margin: 100px;
- }
-
- .control {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1.5vw;
- }
+  }
+  .spacer {
+    margin: 100px;
+  }
+  .control {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5vw;
+  }
+  .nct {
+    display: inline;
+    max-width: 30%;
+    height: auto;
+  }
+  .vertical-inline {
+    vertical-align: middle;
+  }
+  .spotify-color:hover {
+    color: #1DB954;
+  }
+  .apple-color:hover {
+    color: #555555;
+  }
+  .youtube-color:hover {
+    color: #FF0000;
+  }
+  .itunes-color:hover {
+    color; #A3AAAE;
+  }
+  .desktop-link {
+    display: none !important;
+  }
+  .mobile-link {
+    display: block !important;
+  }
 }
 
 .hyperlinkblack {
   color: #d4003a;
 }
-
-
-
