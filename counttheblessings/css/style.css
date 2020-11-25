@@ -3116,6 +3116,7 @@ blockquote footer {
 
 .portfolio-details-10 #about {
     padding: 40px 0;
+    padding-top: 80px;
     background-color: #000;
     color: #FFF;
 }
