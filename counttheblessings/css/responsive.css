@@ -1,0 +1,935 @@
+/* Grid Responsiveness
+------------------------------------------------------------------------ */
+
+
+/* Large desktop size */
+
+@media only screen and (max-width: 1440px) {
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .container {
+        max-width: 1100px;
+        width: 100%;
+    }
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .container {
+        max-width: 940px;
+        width: 100%;
+    }
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 782px) {
+    .row-fluid,
+    .row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 {
+        width: 100%;
+        margin: 0 0 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .span12 {
+        margin-bottom: 0;
+    }
+    .vc_col-sm-1,
+    .vc_col-sm-2,
+    .vc_col-sm-3,
+    .vc_col-sm-4,
+    .vc_col-sm-5,
+    .vc_col-sm-6,
+    .vc_col-sm-7,
+    .vc_col-sm-8,
+    .vc_col-sm-9,
+    .vc_col-sm-10,
+    .vc_col-sm-11,
+    .vc_col-sm-12 {
+        float: none !important;
+        width: 100% !important;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Mobile (Portrait)
+/* ------------------------------------------------------------------------ */
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 479px) {
+    .row-fluid,
+    .row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12,
+    .one-third.column,
+    .two-thirds.column {
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .span12 {
+        margin-bottom: 0;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Smaller than standard 1120 (devices and browsers) */
+
+
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1774px) {
+    .tp-caption.asw_description_title,
+    .tp-caption.asw_description_subtitle {
+        padding-left: 75px !important;
+    }
+    .tparrows.wythe {
+        left: 75px !important;
+    }
+}
+
+@media only screen and (max-width: 1460px) {
+    .tp-caption.asw_description_title,
+    .tp-caption.asw_description_subtitle {
+        padding-left: 35px !important;
+    }
+    .tparrows.wythe {
+        left: 35px !important;
+    }
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+        padding: 0px 35px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .tp-caption.asw_description_title,
+    .tp-caption.asw_description_subtitle {
+        padding-left: 25px !important;
+    }
+    .tparrows.wythe {
+        left: 25px !important;
+    }
+    .tp-caption.desc h2 {
+        padding-top: 30px;
+    }
+    #main {
+        height: auto;
+    }
+    #main .article:not(.is--pushed-right) {
+        height: auto;
+    }
+    #main .article.is--pushed-right {
+        -webkit-transform: translate3d(80%, 0, 0);
+        -moz-transform: translate3d(80%, 0, 0);
+        -ms-transform: translate3d(80%, 0, 0);
+        -o-transform: translate3d(80%, 0, 0);
+        transform: translate3d(80%, 0, 0);
+    }
+    #main .blog-list {
+        width: 80%;
+    }
+    #main .article .header {
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding-bottom: 56.9%;
+    }
+    #main .article .section {
+        width: 100%;
+        margin-left: 0;
+        overflow: visible;
+        position: static;
+        height: auto;
+        padding: 50px 10%;
+    }
+    #main .article .section .menu-button-open {
+        display: none;
+    }
+    #main .article .header .menu-button-open {
+        display: block;
+        opacity: 1;
+        color: #ffffff;
+    }
+    .pad-top-liq {
+        padding-top: 20%;
+    }
+    #main .blog-list {
+        width: 100%;
+        height: 70vh;
+    }
+    #main .article {
+        -webkit-transform: translate3d(0%, 0%, 0);
+        -moz-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+        -o-transform: translate3d(0%, 0, 0);
+        transform: translate3d(0%, 0%, 0);
+    }
+    #main .article.is--pushed-right {
+        -webkit-transform: translate3d(0%, 70%, 0);
+        -moz-transform: translate3d(0%, 70%, 0);
+        -ms-transform: translate3d(0%, 70%, 0);
+        -o-transform: translate3d(0%, 70%, 0);
+        transform: translate3d(0%, 70%, 0);
+    }
+    #main .article .header {
+        height: 50%;
+    }
+    #main .article .section {
+        height: 50%;
+    }
+    #main .article .header .back-to-posts {
+        right: 50%;
+        -webkit-transform: translate3d(50%, 0, 0);
+        -moz-transform: translate3d(50%, 0, 0);
+        -ms-transform: translate3d(50%, 0, 0);
+        -o-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+    }
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+        padding: 0 25px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) / 1. Step */
+
+
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 960px) {
+    .blog-grid.cols-2 .blog-item,
+    .blog-grid.cols-4 .blog-item {
+        min-height: 250px;
+    }
+    .pad-top-liq {
+        padding-top: 15%;
+    }
+    #video-block .video video {
+        height: 360px !important;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* All Mobile Sizes (devices and browser) / all under Tablet */
+
+
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 782px) {
+    .elementor-column[class*="elementor-col-"] {
+        width: 100%;
+    }
+    .elementor-section.elementor-section-height-full {
+        height: auto;
+    }
+    body {
+        font-size: 13px;
+    }
+    .blog-grid.cols-2 .blog-item,
+    .blog-grid.cols-4 .blog-item {
+        width: 48%;
+        width: calc(50% - 10px);
+    }
+    #blog .blog-item {
+        min-height: 210px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #main .article .article-content,
+    .article-footer .meta-tags {
+        margin-bottom: 65px;
+    }
+    #main .article.is--pushed-right {
+        -webkit-transform: translate3d(90%, 0, 0);
+        -moz-transform: translate3d(90%, 0, 0);
+        -ms-transform: translate3d(90%, 0, 0);
+        -o-transform: translate3d(90%, 0, 0);
+        transform: translate3d(90%, 0, 0);
+    }
+    #main .blog-list {
+        width: 90%;
+    }
+    #main .article .header {
+        padding-bottom: 60%;
+    }
+    #main .article .header .info .title {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #main .article .header .info .meta {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .article-footer .sharebox-socials {
+        margin-bottom: 65px;
+    }
+    .ipad-mockup {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        padding-bottom: 74.224%;
+    }
+    .portfolio-item {
+        width: 49.999%;
+        padding-top: 70%;
+    }
+    .portfolio-item.width-1x {
+        width: 49.999%;
+        padding-top: 70%;
+    }
+    .portfolio-item.width-2x {
+        width: 49.999%;
+        padding-top: 35%;
+    }
+    .portfolio-item.width-2x .portfolio-item-title {
+        padding-top: 25px;
+    }
+    .portfolio-item .portfolio-item-title .meta-categories {
+        margin-bottom: 10px;
+    }
+    .portfolio-item.portfolio-more-items {
+        background-color: #f7f7f7;
+        padding-top: 30%;
+        width: 100%;
+    }
+    .portfolio-more-items .load-more span {
+        top: 10%;
+    }
+    .portfolio-more-items .load-more {
+        top: 0%;
+        border-radius: 0;
+    }
+    #project-title {
+        padding: 150px 0px 80px;
+    }
+    .service-block {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .elementor-widget.elementor-element.elementor-widget-asw-service-block:not(:last-child) {
+        margin-bottom: 40px !important;
+    }
+    .title-block .subtitle {
+        margin-bottom: 0;
+    }
+    .elementor-2 .elementor-element.elementor-element-x4znx3z>.elementor-widget-container {
+        margin-bottom: 40px !important;
+    }
+    .clients-logo li {
+        width: 25%;
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    .cta-text {
+        margin-bottom: 30px;
+        font-size: 26px;
+        line-height: 1.6em;
+        text-align: center;
+    }
+    .cta-text,
+    .cta-button {
+        width: 100%;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .cta-button .button {
+        float: none;
+        padding: 20px 25px;
+        display: inline-block;
+    }
+    .testimonials-item {
+        font-size: 22px;
+    }
+    .owl-testimonials .owl-nav {
+        margin-top: 35px;
+    }
+    .title-block h2 {
+        line-height: 1.5em !important;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #team {
+        padding-top: 60px;
+    }
+    .member-info {
+        opacity: 1;
+        top: 73.1%;
+        height: 27%;
+        padding: 20px;
+    }
+    .member-name {
+        font-size: 15px;
+    }
+    .info-block .text {
+        font-size: 13px;
+    }
+    #info-block,
+    #blog,
+    #call-to-action,
+    #testimonials,
+    #call-to-action #footer {
+        padding: 60px 0;
+    }
+    #services {
+        padding: 60px 0 90px;
+    }
+    #contacts .socials li {
+        height: auto;
+    }
+    .socials li a div {
+        display: none;
+    }
+    .socials li a i {
+        display: block;
+    }
+    .map-block,
+    .form-block {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .map-block #map {
+        height: 420px;
+    }
+    .form-block {
+        height: 420px;
+        padding: 50px 25px;
+    }
+    .section.extra-pad .fp-tableCell {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* project details */
+    .elementor-widget-asw-dropcap-intro .description .dropcap {
+        font-size: 100px;
+    }
+    .elementor-widget-asw-dropcap-intro .description .text.dtcell {
+        display: block;
+        width: 100%;
+    }
+    .elementor-widget-asw-dropcap-intro .description .dropcap.dtcell {
+        float: left;
+        width: auto;
+        margin-right: 15px;
+        display: block;
+    }
+    .elementor-widget-asw-dropcap-intro .description .text {
+        font-size: 18px;
+    }
+    .single-portfolio .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-portfolio .elementor-element.elementor-section {
+        padding-top: 65px !important;
+        padding-bottom: 35px !important;
+    }
+    .single-portfolio .elementor-section.elementor-section-height-full,
+    .single-portfolio .elementor-element.elementor-section.elementor-element-tg9b2ax {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    .font-preview-block .main-letter {
+        float: none;
+    }
+    .elementor-95 .elementor-element.elementor-element-ehbjohm {
+        margin-bottom: 0px !important;
+    }
+    .elementor-element .elementor-spacer-inner {
+        height: 30px !important;
+    }
+    .elementor-98 .elementor-element.elementor-element-z1w2csf {
+        margin-bottom: 30px;
+    }
+    .single-portfolio .elementor-section-wrap>.elementor-section>.elementor-container,
+    #projects-pagination .container {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .project-pagin h3.project-title {
+        line-height: 1.4em;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .gap,
+    .gap150,
+    .gap200 {
+        height: 30px;
+    }
+    #video-block .video video {
+        height: 250px !important;
+    }
+    #placeholder {
+        padding: 50px 0;
+    }
+    .palette-block {
+        width: 33.3333%;
+    }
+    .project-info-list.items-inline li {
+        display: block;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    .menu-lightbox .menu li {
+        text-align: center;
+    }
+    .menu-lightbox .menu li a {
+        padding-left: 30px;
+    }
+    #lightbox-footer .copyright {
+        float: none;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    #lightbox-footer .socials {
+        float: none;
+        text-align: center;
+    }
+    #lightbox-footer .socials li {
+        padding: 0 8px 8px;
+        display: inline-block;
+        float: none;
+    }
+    #lightbox-footer .socials li a i {
+        display: inline;
+        font-size: 16px;
+    }
+    #lightbox-footer .socials li a div {
+        display: none;
+    }
+    #lightbox-header {
+        position: static;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .menu-lightbox {
+        min-height: 660px;
+        height: 100vh;
+    }
+    .menu-lightbox.active {
+        position: relative;
+    }
+    #lightbox-footer {
+        position: relative;
+    }
+    .menu-lightbox .dtable {
+        height: calc(95vh - 230px);
+        min-height: 320px;
+    }
+    .slogan h2 {
+        font-size: 125px;
+    }
+    .project-pagin {
+        float: none;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .project-pagin.project-prev {
+        float: none;
+        text-align: left;
+    }
+    .project-title {
+        font-size: 22px;
+    }
+    #details .details .details-img,
+    #details .details .details-description {
+        width: 100%;
+        display: block;
+    }
+    .client-inquiries {
+        position: relative;
+        padding-top: 30px;
+        bottom: auto;
+    }
+    .pad-top-liq {
+        padding-top: 0;
+    }
+    .project-title-stroke {
+        font-size: 22px;
+        -webkit-text-stroke: 1px #ffffff;
+        text-stroke: 1px #ffffff;
+    }
+    .wythe-parallax {
+        background-attachment: scroll;
+    }
+    #main .blog-list {
+        width: 100%;
+        height: 70vh;
+    }
+    #main .article {
+        -webkit-transform: translate3d(0%, 0%, 0);
+        -moz-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+        -o-transform: translate3d(0%, 0, 0);
+        transform: translate3d(0%, 0%, 0);
+    }
+    #main .article.is--pushed-right {
+        -webkit-transform: translate3d(0%, 70%, 0);
+        -moz-transform: translate3d(0%, 70%, 0);
+        -ms-transform: translate3d(0%, 70%, 0);
+        -o-transform: translate3d(0%, 70%, 0);
+        transform: translate3d(0%, 70%, 0);
+    }
+    #main .article .header {
+        height: 50%;
+        height: 50vh;
+    }
+    #main .article .section {
+        height: 50%;
+    }
+    #main .article .header .back-to-posts {
+        right: 50%;
+        -webkit-transform: translate3d(50%, 0, 0);
+        -moz-transform: translate3d(50%, 0, 0);
+        -ms-transform: translate3d(50%, 0, 0);
+        -o-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+    }
+    #main .article .menu-button-open span {
+        opacity: 1;
+        width: 100%;
+        color: #ffffff;
+    }
+    #main .article .menu-button-open {
+        margin-top: 13px;
+    }
+    #main .article.is--pushed-right .header .menu-button-open {
+        display: none;
+    }
+    .commentlist li.comment ul.children {
+        margin: 0;
+    }
+    #header {
+        padding-top: 20px;
+    }
+    .container {
+        padding: 0 60px;
+    }
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .tp-caption.asw_description_title {
+        font-size: 26px !important;
+        line-height: 40px !important;
+        padding-bottom: 35px !important;
+    }
+    .tp-caption.asw_description_title,
+    .tp-caption.asw_description_subtitle {
+        padding-left: 60px !important;
+    }
+    .tparrows.wythe {
+        display: none;
+        left: 60px !important;
+    }
+    .tp-bullets.wythe.horizontal {
+        transform: matrix(1, 0, 0, 1, -49, -80) !important;
+    }
+    .elementor-element.elementor-element-58zhpi0>.elementor-widget-container {
+        margin-right: 0 !important;
+    }
+    .title-block {
+        margin-bottom: 45px;
+    }
+    .elementor-widget:not(:last-child),
+    .elementor-element.elementor-element-2wc2hri>.elementor-widget-container,
+    .elementor-element.elementor-element-m8y43rp>.elementor-widget-container,
+    .elementor-element.elementor-element-yhsikz1>.elementor-widget-container {
+        margin-bottom: 25px !important;
+    }
+    .elementor-element.elementor-element-r4ty6bx>.elementor-widget-container,
+    .elementor-element.elementor-element-kjvxp5q>.elementor-widget-container {
+        margin: 0 !important;
+    }
+    .elementor-element-5co3fpq .elementor-col-25 {
+        width: 50%;
+        padding: 5px;
+    }
+    .elementor-element-5co3fpq {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .elementor-element-2mftwpw .elementor-element-populated {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .elementor-element-kjvxp5q {
+        padding: 0 55px;
+    }
+    .custom-button {
+        margin-bottom: 25px;
+    }
+    #footer {
+        padding: 60px 0;
+    }
+    #footer .widget.span3 .logo-text {
+        text-align: center;
+    }
+    #footer .widget.span3 {
+        margin-bottom: 60px;
+    }
+    .wpcf7 form p {
+        text-align: center;
+    }
+    .single-portfolio .elementor-element.elementor-section .elementor-section {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .elementor-element.elementor-element-4i9rrlr .elementor-heading-title {
+        font-size: 50px !important;
+    }
+    .elementor-element.elementor-element-hiazrgf .title-block .subtitle {
+        font-size: 60px !important;
+    }
+    .elementor-element.elementor-element-oe8cc59 .video video {
+        height: 170px !important;
+    }
+    .elementor-element.elementor-element-4llhp1a .elementor-heading-title {
+        font-size: 34px !important;
+        letter-spacing: 3px !important;
+    }
+    .single-portfolio .elementor .elementor-section-wrap>.elementor-element.elementor-section:first-child {
+        padding-top: 120px !important;
+    }
+    .single-portfolio .elementor-column-gap-default .elementor-column {
+        padding: 0 !important;
+    }
+    .single-portfolio .elementor-element.elementor-element-n5oafkb>.elementor-widget-container,
+    .single-portfolio .elementor-column-gap-default .elementor-column .elementor-widget {
+        margin-bottom: 30px !important;
+    }
+    .single-portfolio .elementor-element.elementor-widget.elementor-widget-text-editor {
+        line-height: 28px !important;
+        font-size: 14px !important;
+    }
+    .elementor-element.elementor-element-ktd91k5 .elementor-heading-title {
+        font-size: 40px !important;
+        letter-spacing: 3px !important;
+    }
+    .single-portfolio .elementor-section-height-full.fancy-fullscreen-bg {
+        height: 100vh !important;
+        opacity: 0.14;
+    }
+    .single-portfolio .elementor-element.elementor-element-9gbvqq8.no-paddings.elementor-column .elementor-column-wrap.elementor-element-populated {
+        padding: 30px !important;
+    }
+    .elementor-396 .elementor-element.elementor-element-xrmedvi {
+        padding-top: 0px !important;
+    }
+    #respond {
+        padding: 15px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Mobile Portrait size (devices and browsers) */
+
+
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 30px;
+    }
+    #main .blog-list .list-content-wrapper {
+        padding: 170px 20px 0;
+    }
+    #main .article .header .back-to-posts {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 10px;
+        top: 22px;
+    }
+    #main .article .header .info .meta,
+    #main .article .header .info .title {
+        text-align: center;
+    }
+    p+.wp-image-316.size-large {
+        margin-bottom: 15px;
+    }
+    #main .article .header {
+        padding-bottom: 90%;
+    }
+    #main .article .section {
+        padding: 65px 5%;
+    }
+    .meta-tags a {
+        margin: 0 12px;
+    }
+    .blog-grid.cols-4 .blog-item,
+    .blog-grid.cols-2 .blog-item {
+        width: 100%;
+        float: none;
+        min-height: 200px;
+    }
+    #main .article .header .menu-button-back {
+        left: 30px;
+        top: 25px;
+    }
+    #main .article .header .menu-button-open {
+        right: 30px;
+        top: 17px;
+    }
+    .elementor-element-2mftwpw .elementor-element-populated {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .elementor-element-kjvxp5q {
+        padding: 0px;
+    }
+    .single-portfolio .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container,
+    #projects-pagination .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tp-caption.asw_description_title,
+    .tp-caption.asw_description_subtitle {
+        padding-left: 30px !important;
+    }
+    .tparrows.wythe {
+        left: 30px !important;
+    }
+    .portfolio-item {
+        width: 100%;
+        padding-top: 140%;
+    }
+    .portfolio-item.width-1x {
+        width: 100%;
+        padding-top: 140%;
+    }
+    .portfolio-item.width-2x {
+        width: 100%;
+        padding-top: 70%;
+    }
+    #blog .blog-item {
+        margin-bottom: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .elementor-element-5co3fpq .elementor-col-25 {
+        width: 100%;
+        padding: 0px;
+    }
+    .elementor-element-5co3fpq {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .elementor-element-2mftwpw .elementor-element-populated {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .elementor-element-kjvxp5q {
+        padding: 0 30px;
+    }
+    .article .article-footer,
+    .team-member {
+        margin-bottom: 30px;
+    }
+    #respond {
+        padding: 35px 20px 20px;
+    }
+    .article-footer .sharebox-socials li {
+        float: none;
+        display: inline-block;
+        padding: 0 8px;
+    }
+    #comments-title,
+    .form-submit {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    #comments>#respond {
+        margin-top: 30px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* EOF
+/* ------------------------------------------------------------------------ */
