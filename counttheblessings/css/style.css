@@ -715,6 +715,7 @@ a.tp-caption h2:hover span:after {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-bottom: 33px;
+    margin-top: 33px;
     overflow: hidden;
     color: white;
 }
@@ -2183,7 +2184,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .gap {
-    height: 94px;
+    height: 45px;
 }
 
 .single-title {
@@ -2389,8 +2390,8 @@ textarea:focus:-ms-input-placeholder {
     text-transform: uppercase;
     display: block;
     clear: both;
-    padding-top: 135px;
-    padding-bottom: 94px;
+    padding-top: 35px;
+    padding-bottom: 65px;
     overflow: hidden;
     width: 100%;
 }
@@ -3116,8 +3117,7 @@ blockquote footer {
 }
 
 .portfolio-details-10 #about {
-    padding: 40px 0;
-    padding-top: 80px;
+    padding: 35spx 0;
     background-color: #000;
     color: #FFF;
 }
